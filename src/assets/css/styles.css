@@ -1,0 +1,47 @@
+/* 
+#####################################################################
+##             ESTILOS GENERALES DE LA APLICACIÓN                  ##
+##################################################################### 
+*/
+body {
+  background: #e8f6ff !important;
+  background: linear-gradient(to right, #e8f6ff, #dcf1ff) !important;
+  font-family: sans-serif !important;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/* 
+#####################################################################
+##                  BOTONES DE LA APLICACIÓN                       ##
+##################################################################### 
+*/
+.btn-menu {
+  color: #fff !important;
+  background: #00c57a linear-gradient(180deg, #00c57a, #009b5f) repeat-x !important;
+  border-color: none !important;
+  transition: all 0.3s ease;
+}
+
+.delimiter {
+  border-bottom: 4px solid #0645b1;
+}
+
+.btn-menu:hover {
+  color: black !important;
+  background: #25d692 linear-gradient(180deg, #25d692, #00c57a) repeat-x !important;
+  transition: all 0.3s ease;
+}
+
+.text-white {
+  color: #fff;
+}
