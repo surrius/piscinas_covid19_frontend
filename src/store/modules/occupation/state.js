@@ -9,8 +9,8 @@ export default {
   status: null,
 
   // Valores fijos
-  solariumMaxOccupation: 319,
-  bigPoolMaxOccupation: 150,
-  medPoolMaxOccupation: 45,
-  smallPoolMaxOccupation: 61,
+  solariumMaxOccupation: 480,
+  bigPoolMaxOccupation: 225,
+  medPoolMaxOccupation: 68,
+  smallPoolMaxOccupation: 91,
 };

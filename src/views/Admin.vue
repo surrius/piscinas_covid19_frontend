@@ -16,13 +16,14 @@
         </div>
         <!-- Calendario para seleccionar el dia de control -->
         <div class="row justify-content-center mt-3">
-            <div class="col col-lg-6">
+            <div id="datepicker" class="col col-lg-6">
                 <b-form-datepicker
                     calendar-width="100%"
                     menu-class="w-100"
                     placeholder="Seleccione la fecha a controlar"
                     v-model="dateControl"
                     @context="dateSelected"
+                    label-help=""
                     class="mb-2"
                 ></b-form-datepicker>
                 <h6>
@@ -32,9 +33,6 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <!-- <div class="col-xs-12 col-lg-4">
-                <button class="btn btn-menu btn-lg btn-block shadow" type="button">NUEVO ABONADO</button>
-            </div>-->
             <div class="col-12 col-lg-4 mt-3">
                 <button
                     @click="showSolarium =!showSolarium; showPools = false"
@@ -539,5 +537,9 @@ export default {
 <style>
 .pointer {
     cursor: pointer;
+}
+
+footer, #datepicker .b-calendar-grid-help.border-top.small.text-muted.text-center.bg-light {
+    display: none;
 }
 </style>

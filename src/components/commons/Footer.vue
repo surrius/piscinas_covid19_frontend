@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-dark text-white text-center">
         <div>
-            <span>© 2020 Ayuntamiento de Duruelo de la Sierra</span>
+            <span>© 2021 Ayuntamiento de Duruelo de la Sierra</span>
         </div>
         <div>
             <span>

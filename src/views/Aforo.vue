@@ -20,7 +20,7 @@
         <div class="row justify-content-center mt-3">
             <div v-if="loaded" class="col col-lg-8 text-center">
                 <h5>Solarium</h5>
-                <h6>Superficie XXX m2. Aforo máximo: {{ solariumMaxOccupation }} personas</h6>
+                <h6>Aforo máximo: {{ solariumMaxOccupation }} personas</h6>
                 <DonutChart class="bg-white border rounded shadow p-2" :chartData="chartDataSolarium"></DonutChart>
             </div>
         </div>
@@ -111,8 +111,8 @@ export default {
 
             this.legibleLastUpdate =
                 [
-                    this.lastUpdate.getMonth() + 1,
                     this.lastUpdate.getDate(),
+                    this.lastUpdate.getMonth() + 1,
                     this.lastUpdate.getFullYear()
                 ].join("/") +
                 " " +
